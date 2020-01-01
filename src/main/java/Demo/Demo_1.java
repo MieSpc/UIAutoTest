@@ -36,7 +36,6 @@ public class Demo_1 {
         WebElement inputSearchWord = driver.findElement(By.cssSelector("#nav_searchform > input"));
         inputSearchWord.sendKeys("runningman");
         WebElement clickSearchBotton = driver.findElement(By.cssSelector("#nav_searchform > div"));
-        clickSearchBotton.click();
 
     }
 }
